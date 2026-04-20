@@ -1,0 +1,5 @@
+# RERconverge batch manifest
+# Columns: name <TAB> phenotype_file <TAB> trait_type [<TAB> extra_flags]
+# Lines starting with '#' are ignored.
+marine	examples/data/marine_foreground.txt	binary
+body_size	examples/data/adult_weight_real.tsv	continuous
