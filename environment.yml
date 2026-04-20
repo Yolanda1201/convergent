@@ -1,0 +1,27 @@
+name: rerconverge-batch
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - r-base>=4.3
+  - r-devtools
+  - r-optparse
+  - r-ape
+  - r-phytools
+  - r-phangorn
+  - r-plotrix
+  - r-rcpp
+  - r-rcpparmadillo
+  - r-weights
+  - r-fsa
+  - r-matrix
+  - r-data.table
+  - r-rsvd
+  - r-progress
+  - r-treetools
+  - r-impute
+  - python>=3.9
+  - pip
+  - pip:
+      - tqdm
