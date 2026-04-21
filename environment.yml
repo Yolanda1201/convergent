@@ -20,7 +20,7 @@ dependencies:
   - r-rsvd
   - r-progress
   - r-treetools
-  - r-impute
+  - bioconductor-impute
   - python>=3.9
   - pip
   - pip:
